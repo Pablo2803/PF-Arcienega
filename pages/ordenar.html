@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="descripcion" content="Menu: Desayuno, Postres, Pastas, Sushi">
+  <meta name="descripcion" content="El delivery mas rapido">
   <!-- Fin de Meta -->
 
   <!-- link -->
@@ -39,7 +39,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./menu.html">Menu</a>
+            <a class="nav-link active" aria-current="page" href="./menu.html">Menú</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="./bebidas.html"> Bebidas</a>
@@ -73,29 +73,29 @@
 
               <h2 class="title">Datos</h2>
               <div class="inputbox">
-                <span>Nombre Completo:</span>
-                <input type="text" placeholder="john deo">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" placeholder="john deo">
               </div>
               <div class="inputbox">
-                <span>Email :</span>
-                <input type="email" placeholder="Ejemplo@Ejemplo.com">
+                <label for="email">Email :</label>
+                <input type="email" id="email" placeholder="Ejemplo@Ejemplo.com">
               </div>
               <div class="inputbox">
-                <span>Direccion:</span>
-                <input type="text" placeholder="Habitacion - Calle - Localidad">
+                <label for="direccion">Dirección :</label>
+                <input type="text" id="direccion" placeholder="Habitacion - Calle - Localidad">
               </div>
               <div class="inputbox">
-                <span>Ciudad :</span>
-                <input type="text" placeholder="Buenos Aires">
+                <label for="ciudad">Ciudad :</label>
+                <input type="text" id="ciudad" placeholder="Buenos Aires">
               </div>
               <div class="flex">
                 <div class="inputbox">
-                  <span>Estado :</span>
-                  <input type="text" placeholder="Provincia">
+                  <label for="estado">Estado :</label>
+                  <input type="text" id="estado" placeholder="Provincia">
                 </div>
                 <div class="inputbox">
-                  <span>Codigo Postal:</span>
-                  <input type="text" placeholder="CP-17123">
+                  <label for="codigo-postal">Código Postal:</label>
+                  <input type="text" id="codigo-postal" placeholder="CP-17123">
                 </div>
               </div>
 
@@ -108,28 +108,28 @@
 
               <div class="inputbox">
                 <span>Tarjetas Aceptadas :</span>
-                <img src="../img/card_img.png" alt="">
+                <img src="../img/card_img.png" alt="Foto de Tipos de tarjeta">
               </div>
               <div class="inputbox">
-                <span>Nombre del titular:</span>
-                <input type="text" placeholder="Matt Murdok">
+                <label for="nombre-titular">Nombre del titular:</label>
+                <input type="text" id="nombre-titular" placeholder="Matt Murdok">
               </div>
               <div class="inputbox">
-                <span>Numero de la tarjeta :</span>
-                <input type="number" placeholder="1111-2222-3333-4444">
+                <label for="numero-tarjeta">Número de la tarjeta :</label>
+                <input type="number" id="numero-tarjeta" placeholder="1111-2222-3333-4444">
               </div>
               <div class="inputbox">
-                <span>Exp mes :</span>
-                <input type="text" placeholder="Enero">
+                <label for="venc-mes">Vcto mes :</label>
+                <input type="text" id="vces-mes" placeholder="Enero">
               </div>
               <div class="flex">
                 <div class="inputbox">
-                  <span>Exp Año :</span>
-                  <input type="number" placeholder="2028">
+                  <label for="vcto-año">Vcto Año :</label>
+                  <input type="number" id="vcto-año" placeholder="2028">
                 </div>
                 <div class="inputbox">
-                  <span>CVV :</span>
-                  <input type="text" placeholder="1234">
+                  <label for="cvv">CVV :</label>
+                  <input type="number" id="cvv" placeholder="1234">
                 </div>
               </div>
 
@@ -154,25 +154,25 @@
 
             <h2 class="title">Comida</h2>
             <div class="inputbox">
-              <span>Plato Principal:</span>
-              <input type="text" placeholder="Ensaladas">
+              <label for="plato-principal">Plato Principal:</label>
+              <input type="text" id="plato-principal" placeholder="Ensaladas">
             </div>
             <div class="inputbox">
-              <span>Plato Secundario:</span>
-              <input type="text" placeholder="Bife a la parrila, Sushi">
+              <label for="plato-secundario">Plato Secundario:</label>
+              <input type="text" id="plato-secundario" placeholder="Bife a la parrila, Sushi">
             </div>
             <h2 class="title">Datos para el repartidor</h2>
             <div class="inputbox">
-              <span>Direccion:</span>
-              <input type="text" placeholder="Piso de Edf, calle">
+              <label for="direccion">Dirección:</label>
+              <input type="text" id="direccion" placeholder="Piso de Edf, calle">
             </div>
             <div class="inputbox">
-              <span>Numero :</span>
-              <input type="number" placeholder="+549 1122334455">
+              <label for="numero-tel">Número :</label>
+              <input type="number" id="numero-tel" placeholder="+549 1122334455">
             </div>
             <div class="inputbox">
-              <span>Tipo de Pago:</span>
-              <input type="text" placeholder="Tarjeta o Efectivo">
+              <label for="tipo-de-pago">Tipo de Pago:</label>
+              <input type="text" id="tipo-de-pago" placeholder="Tarjeta o Efectivo">
             </div>
 
           </div>
@@ -182,25 +182,25 @@
             <h2 class="title">Bebida</h2>
 
             <div class="inputbox">
-              <span>Bebida sin Alcohol:</span>
-              <input type="text" placeholder="Agua, Limonada">
+              <label for="bebida-sin">Bebida sin Alcohol:</label>
+              <input type="text" id="bebida-sin" placeholder="Agua, Limonada">
             </div>
             <div class="inputbox">
-              <span>Bebida con Alcohol:</span>
-              <input type="text" placeholder="Cerveza, Vino">
+              <label for="bebida-con">Bebida con Alcohol:</label>
+              <input type="text" id="bebida-con" placeholder="Cerveza, Vino">
             </div>
-            <h2 class="title">Mas informacion</h2>
+            <h2 class="title">Más información</h2>
             <div class="inputbox">
-              <span>Especificaciones :</span>
-              <input type="text" placeholder="Sin tomate, Con salsa extra">
-            </div>
-            <div class="inputbox">
-              <span>Propina:</span>
-              <input type="number" placeholder="$0 - $1000">
+              <label for="especificacion">Especificaciones :</label>
+              <input type="text" id="especificacion" placeholder="Sin tomate, Con salsa extra">
             </div>
             <div class="inputbox">
-              <span>Con cuanto paga :</span>
-              <input type="text" placeholder="$1394">
+              <label for="propina">Propina:</label>
+              <input type="number" id="propina" placeholder="$0 - $1000">
+            </div>
+            <div class="inputbox">
+              <label for="pago">Con cuanto paga :</label>
+              <input type="number" id="pago" placeholder="$1394">
             </div>
 
 

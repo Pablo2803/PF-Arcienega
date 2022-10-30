@@ -12,6 +12,7 @@
   <!-- link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Mono&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -39,7 +40,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./pages/menu.html">Menu</a>
+            <a class="nav-link active" aria-current="page" href="./pages/menu.html">Menú</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="./pages/bebidas.html"> Bebidas</a>
@@ -91,104 +92,113 @@
     <!-- Fin de Carousel -->
     <section>
       <h2 class="marco">Menú Especial</h2>
-    
 
-    <!-- Card -->
-    <div class="contenedor">
-      <div class="box">
-        <img class="img" src="./img/comida/beef and potatoes.jpg" alt="Foto de bife con Papas, Ensalada y Pan de ajo">
-        <div class="text">
-          <h1>Bife</h1>
-          <p>Bife Con Papas, Ensalada y Pan de ajo</p>
-          <p class="precio-menu">
-            Precio:
-            <span>$750</span>
-          </p>
-          <button class="boton">Comprar</button>
+
+      <!-- Card -->
+      <div class="contenedor">
+        <div class="box">
+          <img class="img" data-aos="zoom-in 0.2" src="./img/comida/beef and potatoes.jpg"
+            alt="Foto de bife con Papas, Ensalada y Pan de ajo">
+          <div class="text">
+            <h1>Bife</h1>
+            <p>Bife Con Papas, Ensalada y Pan de ajo</p>
+            <p class="precio-menu">
+              Precio:
+              <span>$750</span>
+            </p>
+            <button class="boton">Comprar</button>
+          </div>
+        </div>
+        <div class="box">
+          <img class="img" data-aos="zoom-in 0.2" src="./img/comida/double-cheeseburger.jpg"
+            alt="Foto de Hamburguesa doble con doble queso cheddar">
+          <div class="text">
+            <h1>Doble Cheeseburger</h1>
+            <p>Hamburguesa con Pan de Sésamo, 2 medallones de Carne, 2 fetas de Cheddar y Lechuga</p>
+            <p class="precio-menu">
+              Precio:
+              <span>$600</span>
+            </p>
+            <button class="boton">Comprar</button>
+          </div>
+        </div>
+        <div class="box">
+          <img class="img" data-aos="zoom-in 0.2" src="./img/comida/celebration-with-snacks.jpg"
+            alt="Foto De una Picada">
+          <div class="text">
+            <h1>Picada</h1>
+            <p>Picada Con Tomate, Pan, Aceitunas, Jamón Cocido, Salame Picado y Lomo ahumado</p>
+            <p class="precio-menu">
+              Precio:
+              <span>$900</span>
+            </p>
+            <button class="boton">Comprar</button>
+          </div>
+        </div>
+        <div class="box">
+          <img class="img" data-aos="zoom-in 0.2" src="./img/comida/vegetables-pasta.jpg" alt="Foto de Guiso de Tomate">
+          <div class="text">
+            <h1>Guiso De Tomate</h1>
+            <p>Guiso de Tomate, Fideos, cebolla, Hoja de Laurel</p>
+            <p class="precio-menu">
+              Precio:
+              <span>$500</span>
+            </p>
+            <button class="boton">Comprar</button>
+          </div>
+        </div>
+        <div class="box">
+          <img class="img" data-aos="zoom-in 0.2" src="./img/comida/tacos-with-beef.jpg" alt="Foto de Tacos de bife ">
+          <div class="text">
+            <h1>Tacos</h1>
+            <p>Tacos con Bife, Cebolla, Cilantro, Limón, Salsa Especial, Tomate y Lechuga </p>
+            <p class="precio-menu">
+              Precio:
+              <span>$350</span>
+            </p>
+            <button class="boton">Comprar</button>
+          </div>
+        </div>
+        <div class="box">
+          <img class="img" data-aos="zoom-in 0.2" src="./img/comida/paella.jpg" alt="Foto de Paella">
+          <div class="text">
+            <h1>Paella</h1>
+            <p>Paella con Pollo, Conejo, Judía verde, Tomate, Azafrán, Arroz, Mariscos </p>
+            <p class="precio-menu">
+              Precio:
+              <span>$650</span>
+            </p>
+            <button class="boton">Comprar</button>
+          </div>
+        </div>
+        <div class="box">
+          <img class="img" data-aos="zoom-in 0.2" src="./img/comida/cheeseburger.jpg"
+            alt="Foto de Hamburguesa con queso Cheddar">
+          <div class="text">
+            <h1>CheeseBurger</h1>
+            <p>Hamburguesa Con Pan de Sésamo, Papas, Cheddar, Medallón de Carne, Cebolla, Tomate y Lechuga </p>
+            <p class="precio-menu">
+              Precio:
+              <span>$350</span>
+            </p>
+            <button class="boton">Comprar</button>
+          </div>
+        </div>
+        <div class="box">
+          <img class="img" data-aos="zoom-in 0.2" src="./img/comida/burger.jpg" alt="Foto de Hamburguesa Simple">
+          <div class="text">
+            <h1>Hamburguesa Simple</h1>
+            <p>Hamburguesa con Pan, Medallón de Carne, Queso, Tomate, Lechuga y Papas </p>
+            <p class="precio-menu">
+              Precio:
+              <span>$350</span>
+            </p>
+            <button class="boton">Comprar</button>
+          </div>
         </div>
       </div>
-      <div class="box">
-        <img class="img" src="./img/comida/double-cheeseburger.jpg" alt="Foto de Hamburguesa doble con doble queso cheddar">
-        <div class="text">
-          <h1>Doble CheeseBurger</h1>
-          <p>Hamburguesa con Pan de Cesamo, 2 medallones de Carne, 2 fetas de Cheddar y Lechuga</p>
-          <p class="precio-menu">
-            Precio:
-            <span>$600</span>
-          </p>
-          <button class="boton">Comprar</button>
-        </div>
-      </div>
-      <div class="box">
-        <img class="img" src="./img/comida/celebration-with-snacks.jpg" alt="Foto De una Picada">
-        <div class="text">
-          <h1>Picada</h1>
-          <p>Picada Con Tomate, Pan, Aceitunas, Jamon Cocido, Salame Picado y Lomo ahumado</p>
-          <p class="precio-menu">
-            Precio:
-            <span>$900</span>
-          </p>
-          <button class="boton">Comprar</button>
-        </div>
-      </div>
-      <div class="box"><img class="img" src="./img/comida/vegetables-pasta.jpg" alt="Foto de Guiso de Tomate">
-        <div class="text">
-          <h1>Guiso De Tomate</h1>
-          <p>Guiso de Tomate, Fideo tirabuzon, cebolla, Hoja de Laurel</p>
-          <p class="precio-menu">
-            Precio:
-            <span>$500</span>
-          </p>
-          <button class="boton">Comprar</button>
-        </div>
-      </div>
-      <div class="box"><img class="img" src="./img/comida/tacos-with-beef.jpg" alt="Foto de Tacos de bife ">
-        <div class="text">
-          <h1>Tacos</h1>
-          <p>Tacos con Bife, Cebolla, Cilandro, Limon, Salsa Especial, Tomate y Lechuga</p>
-          <p class="precio-menu">
-            Precio:
-            <span>$350</span>
-          </p>
-          <button class="boton">Comprar</button>
-        </div>
-      </div>
-      <div class="box"><img class="img" src="./img/comida/paella.jpg" alt="Foto de Paella">
-        <div class="text">
-          <h1>Paella</h1>
-          <p>Paella con Pollo, Conejo, Judía verde, Tomate, Azafran, Arroz, Mariscos</p>
-          <p class="precio-menu">
-            Precio:
-            <span>$650</span>
-          </p>
-          <button class="boton">Comprar</button>
-        </div>
-      </div>
-      <div class="box"><img class="img" src="./img/comida/cheeseburger.jpg" alt="Foto de Hamburguesa con queso Cheddar">
-        <div class="text">
-          <h1>CheeseBurger</h1>
-          <p>Hamburguesa Con Pan de Cesamo, Papas, Cheddar, Medallon de Carne, Cebolla, Tomate y Lechuga</p>
-          <p class="precio-menu">
-            Precio:
-            <span>$350</span>
-          </p>
-          <button class="boton">Comprar</button>
-        </div>
-      </div>
-      <div class="box"><img class="img" src="./img/comida/burger.jpg" alt="Foto de Hamburguesa Simple">
-        <div class="text">
-          <h1>Hamburguesa Simple</h1>
-          <p>Hamburguesa con Pan, Medallon de Carne, Queso, Tomate, Lechuga y Papas</p>
-          <p class="precio-menu">
-            Precio:
-            <span>$350</span>
-          </p>
-          <button class="boton">Comprar</button>
-        </div>
-      </div>
-    </div>
-    <!-- Fin de Card -->
-  </section>
+      <!-- Fin de Card -->
+    </section>
   </Main>
 
   <!-- Footer -->
@@ -230,6 +240,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <!-- Fin de Script -->
 </body>
 

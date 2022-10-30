@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 .marco {
   font-family: "Kanit", sans-serif;
   padding: 10px;
-  background-color: #413C58;
+  background-color: #413c58;
   color: white;
   text-align: center;
 }
@@ -43,7 +43,7 @@ footer {
 .boton {
   border: 3px solid #000;
   border-radius: 10px;
-  background: #5E4AE3;
+  background: #5e4ae3;
   color: white;
   width: 120px;
   height: 40px;
@@ -67,9 +67,9 @@ footer {
 .box {
   border: 5px solid white;
   border-radius: 10px;
-  width: 20%;
+  width: 25%;
   height: 350px;
-  background: #413C58;
+  background: #413c58;
   margin: 20px;
   text-align: center;
   overflow: auto;
@@ -164,7 +164,7 @@ hr {
   font-size: 50px;
 }
 .wrap h3 {
-  color: #5E4AE3;
+  color: #5e4ae3;
   font-size: 40px;
 }
 .wrap h4 {
@@ -228,7 +228,7 @@ hr {
     color: white;
   }
   .caja:hover {
-    background-color: #413C58;
+    background-color: #413c58;
   }
 }
 .container-g {
@@ -274,7 +274,7 @@ hr {
 .container-g form .row .col .inputbox {
   margin: 15px 0;
 }
-.container-g form .row .col .inputbox span {
+.container-g form .row .col .inputbox label {
   margin-bottom: 10px;
   display: block;
 }
