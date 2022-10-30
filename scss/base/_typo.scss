@@ -1,0 +1,12 @@
+body ::selection {
+  color: #fff;
+background-color: #000;
+}
+
+body {
+  font-family: $letra-primary;
+}
+
+h1, h2, h3, h4, h5 , h6{
+  font-family: $letra-secondary;
+}

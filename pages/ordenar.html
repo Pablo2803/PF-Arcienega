@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="descripcion" content="Menu: Desayuno, Postres, Pastas, Sushi">
+  <!-- Fin de Meta -->
+
+  <!-- link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Fin del link -->
+  <title>www.Pastramaria.com.ar | PastraMaria</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1 class="marco"><a class="navbar-brand" href="./index.html">PastraMaria</a></h1>
+  </header>
+  <!-- Fin del Header -->
+
+  <!-- Barra de Navegacion -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./bebidas.html"> Bebidas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./ordenar.html">Ordenar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./reseñas.html">Reseñas</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Fin de Barra de Navegacion -->
+  <main>
+    <section>
+      <h2 class="marco">Datos del pago</h2>
+
+      <div class="container-g">
+
+        <form action="">
+
+          <div class="row">
+
+            <div class="col">
+
+              <h2 class="title">Datos</h2>
+              <div class="inputbox">
+                <span>Nombre Completo:</span>
+                <input type="text" placeholder="john deo">
+              </div>
+              <div class="inputbox">
+                <span>Email :</span>
+                <input type="email" placeholder="Ejemplo@Ejemplo.com">
+              </div>
+              <div class="inputbox">
+                <span>Direccion:</span>
+                <input type="text" placeholder="Habitacion - Calle - Localidad">
+              </div>
+              <div class="inputbox">
+                <span>Ciudad :</span>
+                <input type="text" placeholder="Buenos Aires">
+              </div>
+              <div class="flex">
+                <div class="inputbox">
+                  <span>Estado :</span>
+                  <input type="text" placeholder="Provincia">
+                </div>
+                <div class="inputbox">
+                  <span>Codigo Postal:</span>
+                  <input type="text" placeholder="CP-17123">
+                </div>
+              </div>
+
+
+            </div>
+
+            <div class="col">
+
+              <h2 class="title">Pago</h2>
+
+              <div class="inputbox">
+                <span>Tarjetas Aceptadas :</span>
+                <img src="../img/card_img.png" alt="">
+              </div>
+              <div class="inputbox">
+                <span>Nombre del titular:</span>
+                <input type="text" placeholder="Matt Murdok">
+              </div>
+              <div class="inputbox">
+                <span>Numero de la tarjeta :</span>
+                <input type="number" placeholder="1111-2222-3333-4444">
+              </div>
+              <div class="inputbox">
+                <span>Exp mes :</span>
+                <input type="text" placeholder="Enero">
+              </div>
+              <div class="flex">
+                <div class="inputbox">
+                  <span>Exp Año :</span>
+                  <input type="number" placeholder="2028">
+                </div>
+                <div class="inputbox">
+                  <span>CVV :</span>
+                  <input type="text" placeholder="1234">
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+          <input type="submit" value="Procesar Datos" class="submit-btn">
+
+        </form>
+
+      </div>
+    </section>
+    <h2 class="marco">Delivery</h2>
+    <div class="container-g">
+
+      <form action="">
+
+        <div class="row">
+
+          <div class="col">
+
+            <h2 class="title">Comida</h2>
+            <div class="inputbox">
+              <span>Plato Principal:</span>
+              <input type="text" placeholder="Ensaladas">
+            </div>
+            <div class="inputbox">
+              <span>Plato Secundario:</span>
+              <input type="text" placeholder="Bife a la parrila, Sushi">
+            </div>
+            <h2 class="title">Datos para el repartidor</h2>
+            <div class="inputbox">
+              <span>Direccion:</span>
+              <input type="text" placeholder="Piso de Edf, calle">
+            </div>
+            <div class="inputbox">
+              <span>Numero :</span>
+              <input type="number" placeholder="+549 1122334455">
+            </div>
+            <div class="inputbox">
+              <span>Tipo de Pago:</span>
+              <input type="text" placeholder="Tarjeta o Efectivo">
+            </div>
+
+          </div>
+
+          <div class="col">
+
+            <h2 class="title">Bebida</h2>
+
+            <div class="inputbox">
+              <span>Bebida sin Alcohol:</span>
+              <input type="text" placeholder="Agua, Limonada">
+            </div>
+            <div class="inputbox">
+              <span>Bebida con Alcohol:</span>
+              <input type="text" placeholder="Cerveza, Vino">
+            </div>
+            <h2 class="title">Mas informacion</h2>
+            <div class="inputbox">
+              <span>Especificaciones :</span>
+              <input type="text" placeholder="Sin tomate, Con salsa extra">
+            </div>
+            <div class="inputbox">
+              <span>Propina:</span>
+              <input type="number" placeholder="$0 - $1000">
+            </div>
+            <div class="inputbox">
+              <span>Con cuanto paga :</span>
+              <input type="text" placeholder="$1394">
+            </div>
+
+
+          </div>
+        </div>
+
+        <input type="submit" value="Pedir" class="submit-btn">
+
+      </form>
+
+    </div>
+
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="container-fluid bg-color">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="d-flex flex-column align-items-center col-lg-3">
+          <h2 class="p-3"><a href="./index.html" class="nav-link active">PastraMaria</a></h2>
+          <p>PastraMaria © Todos los derechos reservados</p>
+          <p>PastraMaria@gmail.com</p>
+        </div>
+
+        <div class="col-lg-3">
+          <h4 class="p-3 text-center text-lg-start">Redes sociales</h4>
+
+          <div class="d-flex justify-content-around justify-content-lg-between fs-2">
+            <a class="navbar-brand" href="./index.html"><i class="bi bi-instagram"></i></a>
+            <a class="navbar-brand" href="./index.html"><i class="bi bi-facebook"></i></a>
+            <a class="navbar-brand" href="./index.html"><i class="bi bi-tiktok"></i></a>
+            <a class="navbar-brand" href="./index.html"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <h4 class="p-3 text-center text-lg-start">Suscribete Para Promociones</h4>
+          <div class="d-flex align-items-center justify-content-around justify-content-lg-start">
+            <div>
+              <input type="email" class="form-control" id="form-email" placeholder="nombre@ejemplo.com">
+            </div>
+            <input type="submit" class="btn btn-light" value="Enviar">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Fin de Footer -->
+
+  <!-- Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <!-- Fin de Script -->
+
+
+</body>
+
+</html>

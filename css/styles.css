@@ -1,0 +1,361 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body ::selection {
+  color: #fff;
+  background-color: #000;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Kanit", sans-serif;
+}
+
+.marco {
+  font-family: "Kanit", sans-serif;
+  padding: 10px;
+  background-color: #413C58;
+  color: white;
+  text-align: center;
+}
+
+.bg-color {
+  background-color: #000;
+}
+
+footer {
+  color: white;
+}
+
+.boton {
+  border: 3px solid #000;
+  border-radius: 10px;
+  background: #5E4AE3;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
+
+.boton:hover {
+  border: 3px solid white;
+  color: black;
+}
+
+.contenedor {
+  width: 100%;
+  height: auto;
+  background: skyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.box {
+  border: 5px solid white;
+  border-radius: 10px;
+  width: 20%;
+  height: 350px;
+  background: #413C58;
+  margin: 20px;
+  text-align: center;
+  overflow: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.img {
+  width: 93%;
+  height: 190px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.text {
+  color: white;
+  padding: 10px;
+}
+
+@media (max-width: 1200px) {
+  .box {
+    width: 40%;
+  }
+}
+@media (max-width: 600px) {
+  .box {
+    width: 90%;
+  }
+}
+@media (min-width: 1366px) {
+  .box:hover {
+    background: #441151;
+  }
+  .text:hover {
+    color: aqua;
+  }
+}
+.menu-restaurante {
+  background-image: url("/img/dark-texture-in-watercolor.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+}
+.menu-restaurante p {
+  font-size: 20px;
+}
+
+.wrap {
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+.column-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin: 10px;
+}
+
+hr {
+  background: #ffc300;
+  height: 3px;
+  width: 100%;
+  border: none;
+}
+
+.precio-menu {
+  font-weight: bold;
+}
+
+.precio-menu span {
+  font-size: 2rem;
+  color: #ffc300;
+}
+
+.imagn {
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 3px;
+}
+
+.wrap h2 {
+  color: white;
+  font-size: 50px;
+}
+.wrap h3 {
+  color: #5E4AE3;
+  font-size: 40px;
+}
+.wrap h4 {
+  color: white;
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .columns {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .wrap h2 {
+    font-size: 30px;
+  }
+}
+.backf {
+  background: white;
+}
+
+.flex-container {
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.caja {
+  border: 1px solid black;
+  border-radius: 10px;
+  background: white;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  margin: 5px;
+}
+
+.imagen {
+  width: 298px;
+  height: 240px;
+  border-radius: 5px;
+}
+
+.texto {
+  color: black;
+}
+.texto h1 {
+  font-size: 30px;
+}
+
+@media (min-width: 1366px) {
+  .texto:hover {
+    color: white;
+  }
+  .caja:hover {
+    background-color: #413C58;
+  }
+}
+.container-g {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+.container-g form {
+  padding: 20px;
+  width: 700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+.container-g form .submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  background: #27ae60;
+  color: #fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.container-g form .submit-btn:hover {
+  background: #2ecc71;
+}
+.container-g form .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.container-g form .row .col {
+  flex: 1 1 250px;
+}
+.container-g form .row .col .title {
+  font-size: 20px;
+  color: #333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+.container-g form .row .col .inputbox {
+  margin: 15px 0;
+}
+.container-g form .row .col .inputbox span {
+  margin-bottom: 10px;
+  display: block;
+}
+.container-g form .row .col .inputbox input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+.container-g form .row .col .inputbox input:focus {
+  border: 1px solid #000;
+}
+.container-g form .row .col .inputbox img {
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+.container-g form .row .col .flex {
+  display: flex;
+  gap: 15px;
+}
+.container-g form .row .col .flex .inputbox {
+  margin-top: 5px;
+}
+
+.testimonio__contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.testimonio__caja {
+  width: 500px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.perfil-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 30px;
+}
+.perfil-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.name-user {
+  display: flex;
+  flex-direction: column;
+}
+.name-user strong {
+  color: #3d3d3d;
+}
+.name-user span {
+  color: #979797;
+}
+
+.reseñas {
+  color: #f9d71c;
+}
+
+.caja-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

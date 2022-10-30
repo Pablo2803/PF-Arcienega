@@ -1,0 +1,18 @@
+.boton {
+  border: 3px solid $color-secondary;
+  border-radius: 10px;
+  background: $color-quaternary;
+  color: $color-primary;
+  @include size-btn(120px, 40px)
+}
+
+// .boton-color {
+//   @extend .boton;
+//   background: $color-primary;
+//   color: $color-secondary;
+// }
+
+.boton:hover {
+  border: 3px solid $color-primary;
+  color: black;
+}

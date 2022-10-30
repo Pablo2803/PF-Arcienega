@@ -1,0 +1,22 @@
+// utils
+@import "./utils/mixins";
+@import "./utils/variables";
+
+// base
+@import "./base/reset";
+@import "./base/typo";
+
+// layout
+@import "./layout/header";
+@import "./layout/footer";
+
+// components
+@import "./components/buttoms";
+@import "./components/cards";
+
+// pages
+@import "./pages/home";
+@import "./pages/menu";
+@import "./pages/bebidas";
+@import "./pages/ordenar";
+@import "./pages/reseñas";
