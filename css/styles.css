@@ -108,7 +108,7 @@ footer {
   }
 }
 .menu-restaurante {
-  background-image: url("../../img/dark-texture-in-watercolor.jpg");
+  background: skyblue;
   background-size: cover;
   color: white;
   text-align: center;
@@ -137,7 +137,7 @@ footer {
 }
 
 hr {
-  background: #ffc300;
+  background: #5e4ae3;
   height: 3px;
   width: 100%;
   border: none;
