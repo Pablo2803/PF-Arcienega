@@ -108,7 +108,7 @@ footer {
   }
 }
 .menu-restaurante {
-  background-image: url("/img/dark-texture-in-watercolor.jpg");
+  background-image: url("../../img/dark-texture-in-watercolor.jpg");
   background-size: cover;
   color: white;
   text-align: center;
